@@ -57,7 +57,7 @@
 				<td width="60" align="center">${employee.name}</td>
 				<td width="60" align="center">${employee.age}</td>
 				<td width="60" align="center">${employee.dept}</td>
-				<td width="60" align="center"><a href="edit/${employee.id}">Edit</a>/<a href="delete/${employee.id}">Delete</a></td>
+				<td width="60" align="center"><a href="${pageContext.request.contextPath}/edit/${employee.id}">Edit</a>/<a href="${pageContext.request.contextPath}/delete/${employee.id}">Delete</a></td>
 			</tr>
 		</c:forEach>
 	</table>
