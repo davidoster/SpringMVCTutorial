@@ -10,9 +10,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
+        <h2><a href="${pageContext.request.contextPath}/index.jsp">Spring MVC Tutorial - Employees</a></h2>
 	<h3>Add / Edit Employee!!!</h3>
 
-	<form:form method="post" action="/SpringMVCTutorial/employee.html" commandName="employee">
+	<form:form method="post" action="${pageContext.request.contextPath}/employee.html" commandName="employee">
 	<div class="table-responsive">
 		<table class="table table-bordered" style="width: 400px">
 			<tr>
