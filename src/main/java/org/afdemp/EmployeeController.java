@@ -17,7 +17,7 @@ public class EmployeeController
     @Autowired
     private EmployeeDAO employeeDAO;
 
-    @RequestMapping(value = "/employee",method=RequestMethod.POST)
+    @RequestMapping(value = "/employee.html",method=RequestMethod.POST)
     public ModelAndView saveEmployee(@ModelAttribute("employee") Employee employee)
     {
         try
